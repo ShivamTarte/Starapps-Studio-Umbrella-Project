@@ -1,0 +1,153 @@
+.mainImg {
+	max-width: -webkit-fill-available;
+	bottom: 0;
+    position: absolute;
+    margin-bottom: 50px;
+}
+
+.mainDiv {
+	height: 100vh;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.loadingContainer {
+	padding-bottom: 200px;
+}
+
+.divLvl21 {
+	float: left;
+	width: 50%;
+	position: relative;
+	height: -webkit-fill-available;
+}
+
+.divLvl211 {
+	height: -webkit-fill-available;
+	width: -webkit-fill-available;
+	background-image: url("Blue umbrella.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 40px;
+    flex-direction: column;
+}
+
+.logoImg {
+	height: 30px;
+}
+
+.loaderImg {
+	height: 70px;
+	display: none;
+}
+
+.loaderImgBtn {
+	/*height: 50px;*/
+	display: none;
+}
+
+.divLvl22 {
+	float: left;
+	width: 50%;
+	height: -webkit-fill-available;
+}
+
+.lvl22Inner {
+	position: absolute;
+    bottom: 0;
+    width: -webkit-fill-available;
+    margin-bottom: 50px;
+    padding: 40px;
+}
+
+.blueDot {
+	background-color: #80d0f1;
+}
+
+.blueInnerDot {
+	background-color: #01a3e1;
+}
+
+.yellowDot {
+	background-color: #fcd867;
+}
+
+.yellowInnerDot {
+	background-color: #ffd041;
+}
+
+
+.pinkDot {
+	background-color: #df8cbe;
+}
+
+.pinkInnerDot {
+	background-color: #d1006e;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  /*background-color: #bbb;*/
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.innerDot {
+	height: 18px;
+  width: 18px;
+  /*background-color: black;*/
+  border-radius: 50%;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.rotate {
+  animation: rotation 2s infinite linear;
+}
+
+.btnTxt {
+	width: -webkit-fill-available;
+	text-align: center;
+	padding: 15px;
+}
+
+.closeIcon {
+	display: none;
+}
+
+.uploadIcon {
+	/*background-image: url("upload_icon.svg");
+	background-size: contain;
+	background-repeat: no-repeat;*/
+}
+
+html * {
+	font-family: Arial !important;
+}
+
+button {
+	width: -webkit-fill-available;
+    background-color: #01a3e1;
+    color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 10px;
+}
